@@ -110,7 +110,7 @@
                      "reward_exp": false,
                      "max_uses": 6400
                   },
-                  {
+                {
                      "wants": [
                         {
                            "item": "minecraft:iron_ingot",
