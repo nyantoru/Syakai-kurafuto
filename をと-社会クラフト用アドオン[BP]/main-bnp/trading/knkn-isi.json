@@ -30,7 +30,7 @@
                         }
                      ],
                      "reward_exp": false,
-                     "max_uses": 640
+                     "max_uses": 6400
                   },
                   {
                      "wants": [
@@ -56,7 +56,7 @@
                         }
                      ],
                      "reward_exp": false,
-                     "max_uses": 640
+                     "max_uses": 6400
                   },
                   {
                      "wants": [
@@ -82,7 +82,7 @@
                         }
                      ],
                      "reward_exp": false,
-                     "max_uses": 640
+                     "max_uses": 6400
                   },
                   {
                      "wants": [
@@ -108,7 +108,7 @@
                         }
                      ],
                      "reward_exp": false,
-                     "max_uses": 640
+                     "max_uses": 6400
                   },
                   {
                      "wants": [
@@ -134,7 +134,7 @@
                         }
                      ],
                      "reward_exp": false,
-                     "max_uses": 640
+                     "max_uses": 6400
                   },
                   {
                      "wants": [
@@ -160,7 +160,7 @@
                         }
                      ],
                      "reward_exp": false,
-                     "max_uses": 640
+                     "max_uses": 6400
                   },
                   {
                      "wants": [
@@ -186,7 +186,7 @@
                         }
                      ],
                      "reward_exp": false,
-                     "max_uses": 640
+                     "max_uses": 6400
                   },
                   {
                      "wants": [
@@ -212,7 +212,7 @@
                         }
                      ],
                      "reward_exp": false,
-                     "max_uses": 640
+                     "max_uses": 6400
                   }
                ]
             }
