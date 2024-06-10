@@ -1,4 +1,6 @@
-execute as @s at @s if entity @s[tag=d] run tellraw @a[tag=kkt] {"rawtext":[{"selector":"@s"},{"text":"§eから119番通報がありました。§r"}]}
-execute as @s at @s if entity @s[tag=!d] run tellraw @a[tag=kist] {"rawtext":[{"selector":"@s"},{"text":"§eから110番通報がありました。§r"}]}
-execute as @s at @s if entity @s[tag=d] run tellraw @s {"rawtext":[{"selector":"@a[tag=kkt]"},{"text":"§eに119番通報をしました§r"}]}
-execute as @s at @s if entity @s[tag=!d] run tellraw @s {"rawtext":[{"selector":"@a[tag=kist]"},{"text":"§eに110番通報をしました§r"}]}
+execute as @a at @s if entity @s[hasitem={item=syakai:ping}] unless entity @s[hasitem={item=syakai:ping,location=slot.inventory}] unless entity @s[hasitem={item=syakai:ping,location=slot.hotbar}] if entity @s[tag=d] run tellraw @a[tag=!d,tag=kkt] {"rawtext":[{"selector":"@s"},{"text":"§eから119番通報がありました§r"}]}
+execute as @a at @s if entity @s[hasitem={item=syakai:ping}] unless entity @s[hasitem={item=syakai:ping,location=slot.inventory}] unless entity @s[hasitem={item=syakai:ping,location=slot.hotbar}] if entity @s[tag=!d] run tellraw @a[tag=!d,tag=kist] {"rawtext":[{"selector":"@s"},{"text":"§eから110番通報がありました§r"}]}
+execute as @a at @s if entity @s[hasitem={item=syakai:ping}] unless entity @s[hasitem={item=syakai:ping,location=slot.inventory}] unless entity @s[hasitem={item=syakai:ping,location=slot.hotbar}] if entity @s[tag=d] run tellraw @s {"rawtext":[{"selector":"@a[tag=kkt,tag=!d]"},{"text":"§eに119番通報をしました§r"}]}
+execute as @a at @s if entity @s[hasitem={item=syakai:ping}] unless entity @s[hasitem={item=syakai:ping,location=slot.inventory}] unless entity @s[hasitem={item=syakai:ping,location=slot.hotbar}] if entity @s[tag=!d] run tellraw @s {"rawtext":[{"selector":"@a[tag=kist,tag=!d]"},{"text":"§eに110番通報をしました§r"}]}
+execute as @a at @s if entity @s[hasitem={item=syakai:ping}] unless entity @s[hasitem={item=syakai:ping,location=slot.inventory}] unless entity @s[hasitem={item=syakai:ping,location=slot.hotbar}] run clear @s syakai:ping 0
+execute as @a at @s unless entity @s[hasitem={item=syakai:ping}] run replaceitem entity @s slot.inventory 0 syakai:ping 1 0 {"keep_on_death":{},"item_lock":{"mode":"lock_in_inventory"}}

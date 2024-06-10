@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "syakai:ping"
+      },
+      "components": {
+        "minecraft:icon": {
+          "texture": "ping"
+        },
+        "minecraft:display_name": {
+          "value":"通報"
+        }
+      }
+    }
+  }
