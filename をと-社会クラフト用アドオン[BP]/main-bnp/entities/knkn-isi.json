@@ -1,0 +1,35 @@
+{
+	"format_version": "1.16.210",
+	"minecraft:entity": {
+	  "description": {
+		"identifier": "syakai:knkn-isi",
+		"is_spawnable": false,
+		"is_summonable": true,
+		"is_experimental": false
+	  },
+	  "components": {
+		"minecraft:type_family": {
+		  "family": ["syakai","knkn"]
+		},
+		"minecraft:collision_box": {
+		  "width":0.8,
+		  "height":0.4
+		},
+		"minecraft:health": {
+		  "value": 100,
+		  "max": 100
+		},
+		"minecraft:knockback_resistance": {
+			"value": 1.0
+		},
+		"minecraft:economy_trade_table": {
+  			"display_name": "換金-石",
+  			"table": "trading/knkn-isi.json",
+  			"new_screen": true,
+  			"hero_demand_discount": 0.00,
+  			"persist_trades": true,
+  			"convert_trades_economy": true
+		}
+	}
+	}
+  }

@@ -1,0 +1,44 @@
+{
+   "format_version": "1.17.20",
+   "minecraft:npc_dialogue": {
+      "scenes": [
+         {
+            "scene_tag": "yksksntk-2",
+            "npc_name": "役職選択",
+            "text": "役職を選択してください。",
+            "buttons": [
+               {
+                  "name": "釣り師",
+                  "commands": [
+                     "tag @initiator remove kkt",
+                     "tag @initiator remove kkr",
+                     "tag @initiator remove sns",
+                     "tag @initiator remove nugu",
+                     "tag @initiator remove hkt",
+                     "tag @initiator remove trs",
+                     "tag @initiator add trs",
+                     ""
+                  ]
+               },
+               {
+                  "name": "仕事をやめる",
+                  "commands": [
+                     "tag @initiator remove kkt",
+                     "tag @initiator remove kkr",
+                     "tag @initiator remove sns",
+                     "tag @initiator remove nugu",
+                     "tag @initiator remove hkt",
+                     "tag @initiator remove trs"
+                  ]
+               },
+               {
+                  "name": "戻る",
+                  "commands": [
+                     "dialogue open @s @initiator yksksntk-1"
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

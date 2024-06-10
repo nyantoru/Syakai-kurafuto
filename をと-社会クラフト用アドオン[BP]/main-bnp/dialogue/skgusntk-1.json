@@ -1,0 +1,80 @@
+{
+   "format_version": "1.17.20",
+   "minecraft:npc_dialogue": {
+      "scenes": [
+         {
+            "scene_tag": "yksksntk-1",
+            "npc_name": "役職選択",
+            "text": "役職を選択してください。",
+            "buttons": [
+               {
+                  "name": "救急隊",
+                  "commands": [
+                     "tag @initiator remove kkt",
+                     "tag @initiator remove kkr",
+                     "tag @initiator remove sns",
+                     "tag @initiator remove nugu",
+                     "tag @initiator remove hkt",
+                     "tag @initiator remove trs",
+                     "tag @initiator add kkt"
+                  ]
+               },
+               {
+                  "name": "木こり",
+                  "commands": [
+                     "tag @initiator remove kkt",
+                     "tag @initiator remove kkr",
+                     "tag @initiator remove sns",
+                     "tag @initiator remove nugu",
+                     "tag @initiator remove hkt",
+                     "tag @initiator remove trs",
+                     "tag @initiator add kkr"
+                  ]
+               },
+               {
+                  "name": "戦士",
+                  "commands": [
+                     "tag @initiator remove kkt",
+                     "tag @initiator remove kkr",
+                     "tag @initiator remove sns",
+                     "tag @initiator remove nugu",
+                     "tag @initiator remove hkt",
+                     "tag @initiator remove trs",
+                     "tag @initiator add sns"
+                  ]
+               },
+               {
+                  "name": "農業",
+                  "commands": [
+                     "tag @initiator remove kkt",
+                     "tag @initiator remove kkr",
+                     "tag @initiator remove sns",
+                     "tag @initiator remove nugu",
+                     "tag @initiator remove hkt",
+                     "tag @initiator remove trs",
+                     "tag @initiator add nugu"
+                  ]
+               },
+               {
+                  "name": "採掘",
+                  "commands": [
+                     "tag @initiator remove kkt",
+                     "tag @initiator remove kkr",
+                     "tag @initiator remove sns",
+                     "tag @initiator remove nugu",
+                     "tag @initiator remove sikt",
+                     "tag @initiator remove trs",
+                     "tag @initiator add sikt"
+                  ]
+               },
+               {
+                  "name": "次へ",
+                  "commands": [
+                     "dialogue open @s @initiator yksksntk-2"
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

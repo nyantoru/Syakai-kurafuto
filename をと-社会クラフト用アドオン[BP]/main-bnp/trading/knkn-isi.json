@@ -1,0 +1,222 @@
+{
+   "tiers": [
+      {
+         "total_exp_required": 0,
+         "groups": [
+            {
+               "num_to_select": 8,
+               "trades": [
+                  {
+                     "wants": [
+                        {
+                           "item": "minecraft:cobblestone",
+                           "quantity": 20,
+                           "price_multiplier": 0
+                        }
+                     ],
+                     "gives": [
+                        {
+                           "item": "syakai:wp-tmp",
+                           "quantity": 1,
+                           "functions": [
+                              {
+                                 "function": "set_data",
+                                 "data": {
+                                    "min": 2,
+                                    "max": 2
+                                 }
+                              }
+                           ]
+                        }
+                     ],
+                     "reward_exp": false,
+                     "max_uses": 640
+                  },
+                  {
+                     "wants": [
+                        {
+                           "item": "minecraft:coal",
+                           "quantity": 2,
+                           "price_multiplier": 0
+                        }
+                     ],
+                     "gives": [
+                        {
+                           "item": "syakai:wp-tmp",
+                           "quantity": 1,
+                           "functions": [
+                              {
+                                 "function": "set_data",
+                                 "data": {
+                                    "min": 2,
+                                    "max": 2
+                                 }
+                              }
+                           ]
+                        }
+                     ],
+                     "reward_exp": false,
+                     "max_uses": 640
+                  },
+                  {
+                     "wants": [
+                        {
+                           "item": "minecraft:redstone",
+                           "quantity": 3,
+                           "price_multiplier": 0
+                        }
+                     ],
+                     "gives": [
+                        {
+                           "item": "syakai:wp-tmp",
+                           "quantity": 1,
+                           "functions": [
+                              {
+                                 "function": "set_data",
+                                 "data": {
+                                    "min": 2,
+                                    "max": 2
+                                 }
+                              }
+                           ]
+                        }
+                     ],
+                     "reward_exp": false,
+                     "max_uses": 640
+                  },
+                  {
+                     "wants": [
+                        {
+                           "item": "minecraft:lapis_lazuli",
+                           "quantity": 10,
+                           "price_multiplier": 0
+                        }
+                     ],
+                     "gives": [
+                        {
+                           "item": "syakai:wp-tmp",
+                           "quantity": 15,
+                           "functions": [
+                              {
+                                 "function": "set_data",
+                                 "data": {
+                                    "min": 2,
+                                    "max": 2
+                                 }
+                              }
+                           ]
+                        }
+                     ],
+                     "reward_exp": false,
+                     "max_uses": 640
+                  },
+                  {
+                     "wants": [
+                        {
+                           "item": "minecraft:iron_ingot",
+                           "quantity": 1,
+                           "price_multiplier": 0
+                        }
+                     ],
+                     "gives": [
+                        {
+                           "item": "syakai:wp-tmp",
+                           "quantity": 3,
+                           "functions": [
+                              {
+                                 "function": "set_data",
+                                 "data": {
+                                    "min": 2,
+                                    "max": 2
+                                 }
+                              }
+                           ]
+                        }
+                     ],
+                     "reward_exp": false,
+                     "max_uses": 640
+                  },
+                  {
+                     "wants": [
+                        {
+                           "item": "minecraft:gold_ingot",
+                           "quantity": 1,
+                           "price_multiplier": 0
+                        }
+                     ],
+                     "gives": [
+                        {
+                           "item": "syakai:wp-tmp",
+                           "quantity": 5,
+                           "functions": [
+                              {
+                                 "function": "set_data",
+                                 "data": {
+                                    "min": 2,
+                                    "max": 2
+                                 }
+                              }
+                           ]
+                        }
+                     ],
+                     "reward_exp": false,
+                     "max_uses": 640
+                  },
+                  {
+                     "wants": [
+                        {
+                           "item": "minecraft:diamond",
+                           "quantity": 1,
+                           "price_multiplier": 0
+                        }
+                     ],
+                     "gives": [
+                        {
+                           "item": "syakai:wp-tmp",
+                           "quantity": 1,
+                           "functions": [
+                              {
+                                 "function": "set_data",
+                                 "data": {
+                                    "min": 3,
+                                    "max": 3
+                                 }
+                              }
+                           ]
+                        }
+                     ],
+                     "reward_exp": false,
+                     "max_uses": 640
+                  },
+                  {
+                     "wants": [
+                        {
+                           "item": "minecraft:netherite_ingot",
+                           "quantity": 1,
+                           "price_multiplier": 0
+                        }
+                     ],
+                     "gives": [
+                        {
+                           "item": "syakai:wp-tmp",
+                           "quantity": 1,
+                           "functions": [
+                              {
+                                 "function": "set_data",
+                                 "data": {
+                                    "min": 4,
+                                    "max": 4
+                                 }
+                              }
+                           ]
+                        }
+                     ],
+                     "reward_exp": false,
+                     "max_uses": 640
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,42 @@
+{
+   "format_version": "1.17.20",
+   "minecraft:npc_dialogue": {
+      "scenes": [
+         {
+            "scene_tag": "ttkunu",
+            "npc_name": "土地種選択",
+            "text": "購入する土地の種類を選択してください。",
+            "buttons": [
+               {
+                  "name": "土地",
+                  "commands": [
+                     "summon armor_stand totiyou",
+                     "scoreboard players operation @e[type=armor_stand,name=totiyou,tag=!st,c=1] ttid = @initiator ttid",
+                     "tag @e[type=armor_stand,name=totiyou,tag=!st,c=1] add st"
+                  ]
+               },
+               {
+                  "name": "土地(NoPvP)",
+                  "commands": [
+                     "summon armor_stand totiyou",
+                     "scoreboard players operation @e[type=armor_stand,name=totiyou,tag=!stno,c=1] ttid = @initiator ttid",
+                     "tag @e[type=armor_stand,name=totiyou,tag=!stno,c=1] add stno"
+                  ]
+               },
+               {
+                  "name": "やめる",
+                  "commands": [
+                     "loot give @initiator loot kstm-ttkunu"
+                  ]
+               }
+            ],
+            "on_open_commands": [
+               "tag @s add notalk"
+            ],
+            "on_close_commands": [
+               "kill"
+            ]
+         }
+      ]
+   }
+}

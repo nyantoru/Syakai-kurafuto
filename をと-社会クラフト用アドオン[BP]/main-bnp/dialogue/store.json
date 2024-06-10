@@ -1,0 +1,41 @@
+{
+   "format_version": "1.17.20",
+   "minecraft:npc_dialogue": {
+      "scenes": [
+         {
+            "scene_tag": "store",
+            "npc_name": "ストア",
+            "text": "購入するアイテムを選んでください。",
+            "buttons": [
+               {
+                  "name": "土地購入アイテム:200WP",
+                  "commands": [
+                     "execute as @initiator at @s if entity @s[scores={money=200..}] run loot give @s loot kstm-ttkunu",
+                     "execute as @initiator at @s if entity @s[scores={money=200..}] run scoreboard players remove @s money 200"
+                  ]
+               },
+               {
+                  "name": "スタングレネード:150WP",
+                  "commands": [
+                     "execute as @initiator at @s if entity @s[scores={money=150..}] run loot give @s loot kstm-stn",
+                     "execute as @initiator at @s if entity @s[scores={money=150..}] run scoreboard players remove @s money 150"
+                  ]
+               },
+               {
+                  "name": "ジェットパック:5000WP",
+                  "commands": [
+                     "execute as @initiator at @s if entity @s[scores={money=150..}] run loot give @s loot kstm-jet",
+                     "execute as @initiator at @s if entity @s[scores={money=150..}] run scoreboard players remove @s money 5000"
+                  ]
+               },
+               {
+                  "name": "やめる",
+                  "commands": [
+                     ""
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}
