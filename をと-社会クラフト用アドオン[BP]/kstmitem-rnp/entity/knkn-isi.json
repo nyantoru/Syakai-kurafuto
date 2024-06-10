@@ -7,7 +7,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/knkn-isi"
+				"default": "textures/entity/knkn"
 			},
 			"geometry": {
 				"default": "geometry.knkn"
