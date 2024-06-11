@@ -21,6 +21,7 @@ execute as @a[scores={V=!11126}] at @s run tellraw @s {"rawtext":[{"text":"ジ�
 execute as @a[scores={V=!11126}] at @s run tellraw @s {"rawtext":[{"text":"ジェットパックをオフハンドに装備して使うように変更"}]}
 execute as @a[scores={V=!11126}] at @s run tellraw @s {"rawtext":[{"text":"ストア修正"}]}
 execute as @a[scores={V=!11126}] at @s run tellraw @s {"rawtext":[{"text":"通報がやりやすくなりました"}]}
+execute as @a[scores={V=!11126}] at @s run tellraw @s {"rawtext":[{"text":"新役職:警察追加"}]}
 execute as @a[scores={V=!11126}] at @s run scoreboard players set @s V 11126
 execute as @a[tag=!member] at @s run scoreboard players set @s money 300
 execute as @a[tag=!member,scores={money=300}] at @s run tag @s add member

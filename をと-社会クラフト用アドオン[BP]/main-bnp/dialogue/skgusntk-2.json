@@ -16,8 +16,21 @@
                      "tag @initiator remove nugu",
                      "tag @initiator remove hkt",
                      "tag @initiator remove trs",
-                     "tag @initiator add trs",
-                     ""
+                     "tag @initiator remove kist",
+                     "tag @initiator add trs"
+                  ]
+               },
+               {
+                  "name": "警察",
+                  "commands": [
+                     "tag @initiator remove kkt",
+                     "tag @initiator remove kkr",
+                     "tag @initiator remove sns",
+                     "tag @initiator remove nugu",
+                     "tag @initiator remove hkt",
+                     "tag @initiator remove kist",
+                     "tag @initiator remove trs",
+                     "tag @initiator add kist"
                   ]
                },
                {
@@ -28,6 +41,7 @@
                      "tag @initiator remove sns",
                      "tag @initiator remove nugu",
                      "tag @initiator remove hkt",
+                     "tag @initiator remove kist",
                      "tag @initiator remove trs"
                   ]
                },

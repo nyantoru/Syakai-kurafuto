@@ -1,6 +1,8 @@
-# 救急隊用マーカー表示
+# 救急隊/警察用マーカー表示
 scoreboard players add @a[tag=kkt] time 1
-execute as @a[scores={time=20..},tag=shift,tag=kkt,tag=!d] at @s if entity @a[tag=d] anchored eyes facing entity @a[tag=d,c=1] eyes run particle minecraft:endrod ^ ^ ^1
+execute as @a[scores={time=20..},tag=shift,tag=kkt,tag=!d] at @s if entity @a[type=armor_stand,name=ping_kkt] anchored eyes facing entity @a[type=armor_stand,name=ping_kkt,c=1] eyes run particle minecraft:endrod ^ ^ ^1
+scoreboard players add @a[tag=kist] time 1
+execute as @a[scores={time=20..},tag=shift,tag=kist,tag=!d] at @s if entity @a[type=armor_stand,name=ping_kist] anchored eyes facing entity @a[type=armor_stand,name=ping_kist,c=1] eyes run particle minecraft:endrod ^ ^ ^1
 scoreboard players set @a[scores={time=20..}] time 0
 # 木こり以外から斧を没収
 clear @a[tag=!kkr] minecraft:iron_axe
