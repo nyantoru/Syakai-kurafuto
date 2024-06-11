@@ -13,7 +13,6 @@ tag @a add dc
 tag @e[type=player] remove dc
 gamemode s @a[tag=d,scores={sstime=..0}]
 execute as @a[tag=d,scores={sstime=..0}] at @s run tellraw @a[tag=kkt] {"rawtext":[{"selector":"@s"},{"text":"が"},{"selector":"@a[tag=kkt,tag=!d,c=1]"},{"text":"によって蘇生されました"}]}
-execute as @a[tag=d,scores={sstime=..0}] at @s run inputpermission set @s movement enabled
 execute as @a[tag=d,scores={sstime=..0}] at @s run inputpermission set @s camera enabled
 execute as @a[tag=d,scores={sstime=..0}] at @s run ability @s mute false
 execute as @a[tag=d,scores={sstime=..0}] at @s run playanimation @s animation.player.sleeping none 0
@@ -21,7 +20,6 @@ tag @a[tag=d,scores={sstime=..0}] remove d
 execute as @a[tag=dc,tag=!d] at @s run scoreboard players set @s sstime 110
 execute as @a[tag=dc,tag=!d] at @s run scoreboard players set @s dstime 0
 execute as @a[tag=dc,tag=!d] at @s run scoreboard players set @s aktime 1800
-execute as @a[tag=dc,tag=!d] at @s run inputpermission set @s movement disabled
 execute as @a[tag=dc,tag=!d] at @s run inputpermission set @s camera disabled
 execute as @a[tag=dc,tag=!d] at @s run ability @s mute true
 execute as @a[tag=dc,tag=!d] at @s run gamemode a
@@ -42,7 +40,6 @@ execute as @a[tag=!dc,tag=d] at @s run scoreboard players remove @s aktime 1
 execute as @a[tag=d,scores={dstime=100..}] at @s run kill @e[type=item,r=5]
 execute as @a[tag=d,scores={dstime=100..}] at @s run clear
 execute as @a[tag=d,scores={dstime=100..}] at @s run tp @e[tag=spawn,c=1]
-execute as @a[tag=d,scores={dstime=100..}] at @s run inputpermission set @s movement enabled
 execute as @a[tag=d,scores={dstime=100..}] at @s run inputpermission set @s camera enabled
 execute as @a[tag=d,scores={dstime=100..}] at @s run ability @s mute false
 execute as @a[tag=d,scores={dstime=100..}] at @s run gamemode s
@@ -56,6 +53,7 @@ effect @e[tag=d] instant_health 1 100 true
 effect @e[tag=d] weakness 1 255 true
 effect @e[tag=d] water_breathing 1 255 true
 effect @e[tag=d] fire_resistance 1 255 true
+effect @e[tag=d] slowness 1 255 true
 execute as @a[tag=d,scores={aktime=1..}] at @s run titleraw @s actionbar {"rawtext":[{"score":{"name":"@s","objective":"aktime"}},{"text":"後にリスポーン可能"}]}
 execute as @a[tag=d,scores={aktime=..0}] at @s run titleraw @s actionbar {"rawtext":[{"score":{"name":"@s","objective":"dstime"}},{"text":"%-Shiftキーでリスポーン(全ロスします)"}]}
 execute as @a[tag=d,scores={aktime=..0},tag=shift] at @s run scoreboard players add @s dstime 1
