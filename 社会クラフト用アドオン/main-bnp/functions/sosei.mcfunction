@@ -59,6 +59,4 @@ execute as @a[tag=d,scores={aktime=..0},tag=!rsm] at @s run title @s subtitle �
 execute as @a[tag=d,scores={aktime=..0},tag=!rsm] at @s run tellraw @a[tag=!d,tag=kkt] {"rawtext":[{"selector":"@s"},{"text":"§eから119番通報がありました§r"}]}
 execute as @a[tag=d,scores={aktime=..0},tag=!rsm] at @s run summon armor_stand ping_kkt
 execute as @a[tag=d,scores={aktime=..0},tag=!rsm] at @s run tag @s add rsm
-execute as @a[scores={dstime=..2980},tag=d,tag=!dc] at @s unless entity @a[tag=dc] unless entity @a[tag=!d,tag=kkt] run tellraw @s {"rawtext":[{"text":"救急隊が全滅しました"}]}
-execute as @a[scores={dstime=..2980},tag=d,tag=!dc] at @s unless entity @a[tag=dc] unless entity @a[tag=!d,tag=kkt] run scoreboard players set @s dstime 100
 playanimation @a[tag=d,tag=!dc] animation.player.sleeping none 0.5
