@@ -1,10 +1,10 @@
 {
     "format_version": 2,
     "header": {
-        "description": "V1.2.1 - 社会クラフト用に作られたカスタムコマンド追加アドオンです。",
-        "name": "社会クラフト用アドオン-V1.2.1",
+        "description": "V1.2.2 - 社会クラフト用に作られたカスタムコマンド追加アドオンです。",
+        "name": "社会クラフト用アドオン-V1.2.2",
         "uuid": "9956547d-b462-4516-8a14-aba0d1f951dc",
-        "version": [ 1, 2, 1 ],
+        "version": [ 1, 2, 2 ],
         "min_engine_version": [ 1, 20, 80 ]
     },
     "modules": [
@@ -17,6 +17,6 @@
     ],
     "dependencies": [
         {"uuid": "520f88f9-b3da-4b97-b4ef-69fc10091b4c",
-        "version":[ 1, 2, 1 ]}
+        "version":[ 1, 2, 2 ]}
     ]
 }
