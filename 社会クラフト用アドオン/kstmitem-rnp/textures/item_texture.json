@@ -16,6 +16,9 @@
     },
     "wp-tmp":{
       "textures":"textures/items/wp"
+    },
+    "ping":{
+      "textures":"textures/items/ping"
     }
   }
 }

@@ -9,7 +9,7 @@
           "texture": "ping"
         },
         "minecraft:display_name": {
-          "value":"通報"
+          "value":"右クリックで通報します"
         }
       }
     }
