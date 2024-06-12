@@ -25,7 +25,7 @@ execute as @a[tag=dc,tag=!d] at @s run gamemode a
 execute as @a[tag=dc,tag=!d] at @s run tag @s remove rsm
 execute as @a[tag=dc,tag=!d] at @s run playanimation @s animation.player.sleeping none 99999
 execute as @a[tag=dc,tag=!d] at @s run title @s title ダウンしてしまった!
-execute as @a[tag=dc,tag=!d] at @s run title @s subtitle 約1分半後リスポーンできます
+execute as @a[tag=dc,tag=!d] at @s run title @s subtitle 約1分半後にリスポーンできます
 execute as @a[tag=dc,tag=!d] at @s run tellraw @s {"rawtext":[{"text":"情報:ダウン中はチャットができません"}]}
 execute as @a[tag=dc,tag=!d] at @s run tellraw @s {"rawtext":[{"text":"ヒント:ダウン中に通報を使うと救急隊に通報ができます。"}]}
 tag @a[tag=dc,tag=!d] add d
