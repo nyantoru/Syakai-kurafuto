@@ -7,7 +7,7 @@ scoreboard players set @a[scores={battery=100..}] battery 100
 execute as @e[name="スタングレネード"] at @s unless entity @e[type=armor_stand,r=1,name=kstmitem-stn] unless block ~ ~-0.1 ~ air run summon minecraft:armor_stand kstmitem-stn ~ ~ ~
 execute as @e[name="スタングレネード"] at @s if entity @e[type=armor_stand,r=1,name=kstmitem-stn] unless block ~ ~-0.1 ~ air run kill
 execute as @e[name="kstmitem-stn"] at @s run scoreboard players add @s time 1
-execute as @e[name="kstmitem-stn",scores={time=40..}] at @s as @a[r=5,tag=!d,tag=!ds] run camera @s fade time 0.2 1 6 color 255 255 255
+execute as @e[name="kstmitem-stn",scores={time=40..}] at @s as @a[r=5,tag=!d] run camera @s fade time 0.2 1 6 color 255 255 255
 execute as @e[name="kstmitem-stn",scores={time=40..}] at @s as @e[family=!player,tag=!dc,r=5] run effect @s slowness 5 255 true
 execute as @e[name="kstmitem-stn",scores={time=40..}] at @s as @e[family=!player,tag=!dc,r=5] run effect @s weakness 5 255 true
 execute as @e[name="kstmitem-stn",scores={time=40..}] at @s run kill

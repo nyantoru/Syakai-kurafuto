@@ -8,7 +8,6 @@ scoreboard objectives add aktime dummy
 tag @a remove shift
 execute as @a at @s if entity @s[y=~1.4,dx=0] unless entity @s[y=~1.5,dx=0] run tag @s add shift
 execute as @a at @s run spawnpoint
-execute as @e[tag=ds] at @s run tp @a[tag=d,c=1]
 tag @a add dc
 tag @e[type=player] remove dc
 gamemode s @a[tag=d,scores={sstime=..0}]
@@ -46,8 +45,6 @@ execute as @a[tag=d,scores={dstime=100..}] at @s run gamemode s
 execute as @a[tag=d,scores={dstime=100..}] at @s run playanimation @s animation.player.sleeping none 0
 execute as @a[tag=d,scores={dstime=100..}] at @s run tellraw @s {"rawtext":[{"text":"所持品をすべて失って初期リスにリスポーンしました"}]}
 execute as @a[tag=d,scores={dstime=100..}] at @s run tag @s remove d
-effect @e[tag=ds] resistance 1 255 true
-effect @e[tag=ds] instant_health 1 100 true
 effect @e[tag=d] resistance 1 255 true
 effect @e[tag=d] instant_health 1 100 true
 effect @e[tag=d] weakness 1 255 true
