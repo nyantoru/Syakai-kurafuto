@@ -26,7 +26,7 @@
   			"display_name": "換金-石",
   			"table": "trading/knkn-isi.json",
   			"new_screen": true,
-  			"hero_demand_discount": 0.00,
+  			"hero_demand_discount": 0,
   			"persist_trades": true,
   			"convert_trades_economy": true
 		}
