@@ -20,13 +20,13 @@ execute as @a[tag=!nb,tag=shift,hasitem={item=syakai:kstm-jet,location=slot.weap
 execute as @a[tag=nb,hasitem={item=syakai:kstm-jet,location=slot.weapon.offhand}] at @s run effect @s levitation 0 1 true
 execute as @a[tag=!nb,tag=!shift,hasitem={item=syakai:kstm-jet,location=slot.weapon.offhand}] at @s run effect @s levitation 0 1 true
 # wpその1
-scoreboard players add @a[hasitem={item=syakai:wp-tmp,quantity=1..,data=2}] money 1
-clear @a syakai:wp-tmp 2 1
+scoreboard players add @a[hasitem={item=syakai:wp_tmp,quantity=1..,data=2}] money 1
+clear @a syakai:wp_tmp 2 1
 # wp その2
-scoreboard players add @a[hasitem={item=syakai:wp-tmp,quantity=1..,data=3}] money 100
-clear @a syakai:wp-tmp 3 1
+scoreboard players add @a[hasitem={item=syakai:wp_tmp,quantity=1..,data=3}] money 100
+clear @a syakai:wp_tmp 3 1
 # wp その3
-scoreboard players add @a[hasitem={item=syakai:wp-tmp,quantity=1..,data=4}] money 500
-clear @a syakai:wp-tmp 4 1
+scoreboard players add @a[hasitem={item=syakai:wp_tmp,quantity=1..,data=4}] money 500
+clear @a syakai:wp_tmp 4 1
 # batteryその2
 tag @a[scores={battery=..0}] add nb

@@ -16,7 +16,7 @@
                      ],
                      "gives": [
                         {
-                           "item": "syakai:wp-tmp",
+                           "item": "syakai:wp_tmp",
                            "quantity": 1,
                            "functions": [
                               {
@@ -42,7 +42,7 @@
                      ],
                      "gives": [
                         {
-                           "item": "syakai:wp-tmp",
+                           "item": "syakai:wp_tmp",
                            "quantity": 1,
                            "functions": [
                               {
@@ -68,7 +68,7 @@
                      ],
                      "gives": [
                         {
-                           "item": "syakai:wp-tmp",
+                           "item": "syakai:wp_tmp",
                            "quantity": 1,
                            "functions": [
                               {
@@ -94,7 +94,7 @@
                      ],
                      "gives": [
                         {
-                           "item": "syakai:wp-tmp",
+                           "item": "syakai:wp_tmp",
                            "quantity": 15,
                            "functions": [
                               {
@@ -120,7 +120,7 @@
                      ],
                      "gives": [
                         {
-                           "item": "syakai:wp-tmp",
+                           "item": "syakai:wp_tmp",
                            "quantity": 3,
                            "functions": [
                               {
@@ -146,7 +146,7 @@
                      ],
                      "gives": [
                         {
-                           "item": "syakai:wp-tmp",
+                           "item": "syakai:wp_tmp",
                            "quantity": 5,
                            "functions": [
                               {
@@ -172,7 +172,7 @@
                      ],
                      "gives": [
                         {
-                           "item": "syakai:wp-tmp",
+                           "item": "syakai:wp_tmp",
                            "quantity": 1,
                            "functions": [
                               {
@@ -198,7 +198,7 @@
                      ],
                      "gives": [
                         {
-                           "item": "syakai:wp-tmp",
+                           "item": "syakai:wp_tmp",
                            "quantity": 1,
                            "functions": [
                               {

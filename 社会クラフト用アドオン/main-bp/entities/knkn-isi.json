@@ -29,6 +29,8 @@
   			"hero_demand_discount": 0,
   			"persist_trades": true,
   			"convert_trades_economy": true
+		},
+		"minecraft:physics": {
 		}
 	}
 	}

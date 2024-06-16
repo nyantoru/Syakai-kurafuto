@@ -1,5 +1,3 @@
-diagnostic.disable.minecraft.commands.invalid=true
-diagnostic.disable.minecraft.mode.gamemodes.invalid=true
-diagnostic.disable.minecraft.manifest.version.minimum=true
-diagnostic.disable.minecraft.manifest.module.missing=true
+edueducation.enable=true
 diagnostic.disable.project.settings=true
+diagnostic.disable.minecraft.commands.invalid=true

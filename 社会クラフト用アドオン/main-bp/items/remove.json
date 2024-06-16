@@ -2,14 +2,14 @@
     "format_version": "1.16.100",
     "minecraft:item": {
       "description": {
-        "identifier": "syakai:wp"
+        "identifier": "syakai:remove"
       },
       "components": {
         "minecraft:icon": {
-          "texture":"wp"
+          "texture":"remove"
         },
         "minecraft:display_name": {
-          "value":"WP"
+          "value":"前へ"
         }
       }
     }

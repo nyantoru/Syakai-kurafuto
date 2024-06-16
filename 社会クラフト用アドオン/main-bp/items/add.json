@@ -2,14 +2,14 @@
     "format_version": "1.16.100",
     "minecraft:item": {
       "description": {
-        "identifier": "syakai:wp"
+        "identifier": "syakai:add"
       },
       "components": {
         "minecraft:icon": {
-          "texture":"wp"
+          "texture":"add"
         },
         "minecraft:display_name": {
-          "value":"WP"
+          "value":"次へ"
         }
       }
     }

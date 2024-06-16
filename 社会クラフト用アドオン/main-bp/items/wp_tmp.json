@@ -2,14 +2,14 @@
     "format_version": "1.16.100",
     "minecraft:item": {
       "description": {
-        "identifier": "syakai:wp-tmp"
+        "identifier": "syakai:wp_tmp"
       },
       "components": {
         "minecraft:icon": {
           "texture": "wp"
         },
         "minecraft:display_name": {
-          "value":"WP-TMP"
+          "value":"WP_TMP"
         }
       }
     }

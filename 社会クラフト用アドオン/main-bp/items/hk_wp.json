@@ -2,14 +2,14 @@
     "format_version": "1.16.100",
     "minecraft:item": {
       "description": {
-        "identifier": "syakai:wp"
+        "identifier": "syakai:hk_wp"
       },
       "components": {
         "minecraft:icon": {
-          "texture":"wp"
+          "texture":"hk"
         },
         "minecraft:display_name": {
-          "value":"WP"
+          "value":"利用不可:WPがありません"
         }
       }
     }

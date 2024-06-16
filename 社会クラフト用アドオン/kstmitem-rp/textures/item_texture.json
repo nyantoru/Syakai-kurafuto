@@ -19,6 +19,15 @@
     },
     "ping":{
       "textures":"textures/items/ping"
+    },
+    "hk":{
+      "textures":"textures/items/hk"
+    },
+    "add":{
+      "textures":"textures/items/add"
+    },
+    "remove":{
+      "textures":"textures/items/remove"
     }
   }
 }
