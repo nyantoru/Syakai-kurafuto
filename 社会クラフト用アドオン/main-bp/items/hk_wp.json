@@ -9,7 +9,7 @@
           "texture":"hk"
         },
         "minecraft:display_name": {
-          "value":"利用不可:WPがありません"
+          "value":"送信不可:20以上のWPがありません"
         }
       }
     }
