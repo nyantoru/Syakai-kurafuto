@@ -2,7 +2,7 @@
 	"format_version": "1.16.210",
 	"minecraft:entity": {
 	  "description": {
-		"identifier": "syakai:knkn-isi",
+		"identifier": "syakai:knkn_isi",
 		"is_spawnable": false,
 		"is_summonable": true,
 		"is_experimental": false
@@ -24,7 +24,7 @@
 		},
 		"minecraft:economy_trade_table": {
   			"display_name": "換金-石",
-  			"table": "trading/knkn-isi.json",
+  			"table": "trading/knkn_isi.json",
   			"new_screen": true,
   			"hero_demand_discount": 0,
   			"persist_trades": true,

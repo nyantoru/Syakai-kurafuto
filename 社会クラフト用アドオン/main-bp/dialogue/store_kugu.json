@@ -1,0 +1,49 @@
+{
+   "format_version": "1.17.20",
+   "minecraft:npc_dialogue": {
+      "scenes": [
+         {
+            "scene_tag": "store_kugu",
+            "npc_name": "機械専用ストア",
+            "text": "購入するアイテムを選んでください。",
+            "buttons": [
+               {
+                  "name": "発電機:300Wp",
+                  "commands": [
+                     "execute as @initiator at @s if entity @s[scores={money=300..}] run give @s syakai:kugu_htdn_spawn_egg",
+                     "execute as @initiator at @s if entity @s[scores={money=300..}] run scoreboard players remove @s money 300"
+                  ]
+               },
+               {
+                  "name": "レンチ:50Wp",
+                  "commands": [
+                     "execute as @initiator at @s if entity @s[scores={money=50..}] run loot give @s loot kugu_rnt",
+                     "execute as @initiator at @s if entity @s[scores={money=50..}] run scoreboard players remove @s money 50"
+                  ]
+               },
+               {
+                  "name": "ドリル:450Wp",
+                  "commands": [
+                     "execute as @initiator at @s if entity @s[scores={money=450..}] run give @s syakai:kugu_drl_spawn_egg",
+                     "execute as @initiator at @s if entity @s[scores={money=450..}] run scoreboard players remove @s money 450"
+                  ]
+               },
+               {
+                  "name": "ベルトコンベア:30Wp",
+                  "commands": [
+                     "execute as @initiator at @s if entity @s[scores={money=30..}] run give @s syakai:kugu_knba_spawn_egg",
+                     "execute as @initiator at @s if entity @s[scores={money=30..}] run scoreboard players remove @s money 30"
+                  ]
+               },
+               {
+                  "name": "ファン:40Wp",
+                  "commands": [
+                     "execute as @initiator at @s if entity @s[scores={money=40..}] run give @s syakai:kugu_blower_spawn_egg",
+                     "execute as @initiator at @s if entity @s[scores={money=40..}] run scoreboard players remove @s money 40"
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "syakai:kugu_rnt"
+      },
+      "components": {
+        "minecraft:icon": {
+          "texture":"kugu_rnt"
+        },
+        "minecraft:display_name": {
+          "value":"レンチ"
+        },
+        "minecraft:hand_equipped":true,
+        "minecraft:wearable":{
+          "slot":"slot.weapon.offhand",
+          "protection":0
+        },
+        "minecraft:allow_off_hand":true
+      }
+    }
+}

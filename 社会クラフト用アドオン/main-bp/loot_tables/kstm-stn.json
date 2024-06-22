@@ -9,11 +9,11 @@
     "weight":2,
     "functions":[
     {
-    "function":"minecraft:set_name",
+    "function":"set_name",
     "name":"スタングレネード"
     },
     {
-    "function":"minecraft:set_lore",
+    "function":"set_lore",
     "lore":[ "エンティティを足止めします。", "Qキーで使用" ]
     }
     ]

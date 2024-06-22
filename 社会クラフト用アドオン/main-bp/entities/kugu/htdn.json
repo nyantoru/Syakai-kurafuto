@@ -1,0 +1,35 @@
+{
+	"format_version": "1.16.210",
+	"minecraft:entity": {
+	  "description": {
+		"identifier": "syakai:kugu_htdn",
+		"is_spawnable": true,
+		"is_summonable": true,
+		"is_experimental": false
+	  	},
+	  	"components": {
+			"minecraft:type_family": {
+		  		"family": ["syakai","kugu","bt"]
+			},
+			"minecraft:collision_box": {
+		  		"width":0.5,
+		  		"height":0.5
+			},
+			"minecraft:health": {
+		  		"value": 10,
+		  		"max": 10
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1.0
+			},
+			"minecraft:inventory": {
+				"can_be_siphoned_from": true,
+				"container_type": "minecart_chest",
+				"inventory_size": 1
+			},
+			"minecraft:loot":{
+				"table": "loot_tables/kugu/htdn.json"
+			}
+		}
+	}
+}

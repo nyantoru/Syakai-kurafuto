@@ -59,4 +59,4 @@ execute as @a[tag=d,scores={aktime=..0},tag=!rsm] at @s unless entity @e[type=ar
 execute as @a[tag=d,scores={aktime=..0},tag=!rsm] at @s unless entity @e[type=armor_stand,name=ping_kkt,r=1] run tellraw @a[tag=!d,tag=kkt] {"rawtext":[{"selector":"@s"},{"text":"§eから119番通報がありました§r"}]}
 execute as @a[tag=d,scores={aktime=..0},tag=!rsm] at @s unless entity @e[type=armor_stand,name=ping_kkt,r=1] run summon armor_stand ping_kkt
 execute as @a[tag=d,scores={aktime=..0},tag=!rsm] at @s run tag @s add rsm
-execute as @a[tag=d] at @s run camera @s fade time 0.1 0.1 0.1 color 0 0 0
+execute as @a[tag=d] at @s run camera @s fade time 0 0.1 0 color 0 0 0

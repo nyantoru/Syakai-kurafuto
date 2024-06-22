@@ -9,11 +9,11 @@
     "weight":2,
     "functions":[
     {
-    "function":"minecraft:set_name",
+    "function":"set_name",
     "name":"ジェットパック"
     },
     {
-    "function":"minecraft:set_lore",
+    "function":"set_lore",
     "lore":[ "バッテリーを消費して空を飛びます", "オフハンドに装備してShiftキーで使用" ]
     }
     ]

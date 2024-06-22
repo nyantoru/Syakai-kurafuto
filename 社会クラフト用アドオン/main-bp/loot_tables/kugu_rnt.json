@@ -5,16 +5,16 @@
     "entries":[
     {
     "type":"item",
-    "name":"syakai:kstm-ttkunu",
+    "name":"syakai:kugu_rnt",
     "weight":2,
     "functions":[
     {
     "function":"set_name",
-    "name":"土地購入"
+    "name":"レンチ"
     },
     {
     "function":"set_lore",
-    "lore":[ "自分が立っている場所を購入します", "Qキーで使用" ]
+    "lore":[ "最寄りの機械の向きを変えます", "Qキーで使用" ]
     }
     ]
     }

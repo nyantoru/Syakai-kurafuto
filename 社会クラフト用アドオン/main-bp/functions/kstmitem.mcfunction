@@ -1,8 +1,8 @@
 # バッテリー
 scoreboard objectives add battery dummy
-scoreboard players add @a battery 1
+scoreboard players add @a[scores={battery=..99}] battery 1
 tag @a[scores={battery=100..}] remove nb
-scoreboard players set @a[scores={battery=100..}] battery 100
+execute as @a at @s unless entity @s[scores={battery=0..}] run scoreboard players set @s battery 0
 # スタグレ
 execute as @e[name="スタングレネード"] at @s unless entity @e[type=armor_stand,r=1,name=kstmitem-stn] unless block ~ ~-0.1 ~ air run summon minecraft:armor_stand kstmitem-stn ~ ~ ~
 execute as @e[name="スタングレネード"] at @s if entity @e[type=armor_stand,r=1,name=kstmitem-stn] unless block ~ ~-0.1 ~ air run kill

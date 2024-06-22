@@ -28,6 +28,24 @@
     },
     "remove":{
       "textures":"textures/items/remove"
+    },
+    "kugu_drl": {
+			"textures": ["textures/items/kugu/drl_spawn_egg"]
+		},
+    "kugu_htdn": {
+			"textures": ["textures/items/kugu/htdn_spawn_egg"]
+		},
+    "kugu_knba": {
+			"textures": ["textures/items/kugu/knba_spawn_egg"]
+		},
+    "kugu_blower": {
+      "textures":["textures/items/kugu/blower_spawn_egg"]
+    },
+    "kugu_rnt":{
+      "textures":["textures/items/kugu/rnt"]
+    },
+    "kugu_apg_btr":{
+      "textures":["textures/items/kugu/apg/btr"]
     }
   }
 }

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "syakai:kugu_drl",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/kugu/drl"
+			},
+			"geometry": {
+				"default": "geometry.kugu_drl"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				  "texture": "kugu_drl"
+			}
+		}
+	}
+}

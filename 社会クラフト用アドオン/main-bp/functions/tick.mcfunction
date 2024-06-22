@@ -1,5 +1,4 @@
 # tickごとに実行されるコマンド
-scoreboard objectives add ttid dummy
 # スポーン設定
 execute as @e[name=spawnpoint,tag=!spawn] at @s run kill @e[name=spawnpoint,tag=spawn]
 execute as @e[name=spawnpoint,tag=!spawn] at @s run say ワールドスポーンを設定しました
@@ -11,5 +10,8 @@ effect @e[tag=spawn] invisibility 1 1 true
 effect @e[tag=spawn] instant_health 1 100 true
 execute as @e[tag=spawn] at @s run tp ~ ~ ~
 # 無敵化
-effect @e[type=syakai:knkn-isi] resistance 1 255 true
-effect @e[type=syakai:knkn-isi] instant_health 1 255
+effect @e[type=syakai:knkn_isi] resistance 1 255 true
+effect @e[type=syakai:knkn_isi] instant_health 1 255
+# op
+op @a[tag=op]
+deop @a[tag=!op]
